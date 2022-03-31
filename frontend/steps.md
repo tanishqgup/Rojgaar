@@ -14,3 +14,4 @@ Steps are as follows:
 * git checkout `master`
 * git branch -d `<Brach-Name>` [Please be cautious it will delete the branch from your pc]
 * git push origin --delete `<branch name>` [Please be cautious it will delete the branch from github]
+* After deleting branch please run `git remote prune origin`
