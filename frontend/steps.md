@@ -12,4 +12,5 @@ Steps are as follows:
 * git push origin `<branch name>`
 * If asked to verify yourself please do so by `git config user.email "Your email"` and `git config user.name "Your username"`
 * git checkout `master`
-* git branch -d `<Brach-Name>`
+* git branch -d `<Brach-Name>` [Please be cautious it will delete the branch from your pc]
+* git push origin --delete `<branch name>` [Please be cautious it will delete the branch from github]
